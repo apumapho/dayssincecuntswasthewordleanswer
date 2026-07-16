@@ -14,6 +14,10 @@ A bright, static, and needlessly rigorous counter for
 - `scripts/daily-update.sh` updates the data, commits a real change, and pushes it.
 - `launchd/com.dayssince.wordle-updater.plist` runs that workflow at 8:15 AM
   America/New_York on `luchonmac`.
+- `npm run dns:check` shows the exact Porkbun DNS cutover without changing it;
+  `npm run dns:apply` applies it after both API keys are present in `.env`.
+- `npm run schedule:install` validates and installs the launch agent after the
+  Git remote is configured.
 
 ## Local development
 

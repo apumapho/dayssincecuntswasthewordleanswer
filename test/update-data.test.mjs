@@ -7,6 +7,7 @@ import {
   puzzleNumberForDate,
   validateRecords,
 } from "../scripts/update-data.mjs";
+import { conflictingRecords, parseEnv } from "../scripts/configure-porkbun-dns.mjs";
 
 test("maps launch and current dates to their puzzle numbers", () => {
   assert.equal(puzzleNumberForDate("2021-06-19"), 0);
@@ -34,4 +35,21 @@ test("generated archive is continuous and has known boundary answers", async () 
   });
   assert.equal(payload.latest.puzzle, payload.answers.length - 1);
   assert.equal(payload.answers.filter(({ answer }) => answer === "CUNTS").length, 0);
+});
+
+test("Porkbun cutover selects only conflicting apex and www records", () => {
+  const records = [
+    { id: "1", name: "", type: "A", content: "192.0.2.1" },
+    { id: "2", name: "www", type: "CNAME", content: "parking.example" },
+    { id: "3", name: "mail", type: "MX", content: "mail.example" },
+    { id: "4", name: "_dmarc", type: "TXT", content: "v=DMARC1" },
+  ];
+  assert.deepEqual(conflictingRecords(records).map(({ id }) => id), ["1", "2"]);
+});
+
+test("env parser preserves values after the first equals sign", () => {
+  assert.deepEqual(parseEnv("PORKBUN_API=pk1_example\nTOKEN='a=b'\n"), {
+    PORKBUN_API: "pk1_example",
+    TOKEN: "a=b",
+  });
 });

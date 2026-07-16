@@ -6,6 +6,9 @@
   "scripts": {
     "update": "node scripts/update-data.mjs",
     "import-seed": "node scripts/import-seed.mjs",
+    "dns:check": "node scripts/configure-porkbun-dns.mjs",
+    "dns:apply": "node scripts/configure-porkbun-dns.mjs --apply",
+    "schedule:install": "zsh scripts/install-launch-agent.sh",
     "test": "node --test",
     "serve": "npx --yes serve public"
   },
