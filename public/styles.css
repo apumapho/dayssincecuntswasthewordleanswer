@@ -233,6 +233,7 @@ a { color: inherit; }
   transform: rotate(2.5deg);
 }
 
+.image-frame picture,
 .image-frame img { width: 100%; height: 100%; display: block; object-fit: cover; }
 
 .art-caption {
