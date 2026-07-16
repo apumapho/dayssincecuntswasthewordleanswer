@@ -16,6 +16,7 @@ A bright, static, and needlessly rigorous counter for
   America/New_York on `luchonmac`.
 - `npm run dns:check` shows the exact Porkbun DNS cutover without changing it;
   `npm run dns:apply` applies it after both API keys are present in `.env`.
+  The expected names are `PORKBUN_APIKEY` and `PORKBUN_SECRET`.
 - `npm run schedule:install` validates and installs the launch agent after the
   Git remote is configured.
 

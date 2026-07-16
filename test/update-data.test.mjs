@@ -7,7 +7,7 @@ import {
   puzzleNumberForDate,
   validateRecords,
 } from "../scripts/update-data.mjs";
-import { conflictingRecords, parseEnv } from "../scripts/configure-porkbun-dns.mjs";
+import { conflictingRecords, missingRecords, parseEnv } from "../scripts/configure-porkbun-dns.mjs";
 
 test("maps launch and current dates to their puzzle numbers", () => {
   assert.equal(puzzleNumberForDate("2021-06-19"), 0);
@@ -39,12 +39,21 @@ test("generated archive is continuous and has known boundary answers", async () 
 
 test("Porkbun cutover selects only conflicting apex and www records", () => {
   const records = [
-    { id: "1", name: "", type: "A", content: "192.0.2.1" },
-    { id: "2", name: "www", type: "CNAME", content: "parking.example" },
+    { id: "1", name: "dayssincecuntswasthewordleanswer.com", type: "A", content: "192.0.2.1" },
+    { id: "2", name: "www.dayssincecuntswasthewordleanswer.com", type: "CNAME", content: "parking.example" },
     { id: "3", name: "mail", type: "MX", content: "mail.example" },
     { id: "4", name: "_dmarc", type: "TXT", content: "v=DMARC1" },
   ];
   assert.deepEqual(conflictingRecords(records).map(({ id }) => id), ["1", "2"]);
+});
+
+test("Porkbun cutover is idempotent when desired records already exist", () => {
+  const records = [
+    { id: "1", name: "dayssincecuntswasthewordleanswer.com", type: "A", content: "75.2.60.5" },
+    { id: "2", name: "www.dayssincecuntswasthewordleanswer.com", type: "CNAME", content: "dayssincecuntswasthewordleanswer.netlify.app" },
+  ];
+  assert.deepEqual(conflictingRecords(records), []);
+  assert.deepEqual(missingRecords(records), []);
 });
 
 test("env parser preserves values after the first equals sign", () => {
