@@ -1,0 +1,15 @@
+{
+  "name": "days-since-cunts-was-the-wordle-answer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update-data.mjs",
+    "import-seed": "node scripts/import-seed.mjs",
+    "test": "node --test",
+    "serve": "npx --yes serve public"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

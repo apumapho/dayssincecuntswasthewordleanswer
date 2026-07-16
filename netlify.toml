@@ -1,0 +1,20 @@
+[build]
+  publish = "public"
+  command = "npm test"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=300, must-revalidate"
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
