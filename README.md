@@ -27,4 +27,5 @@ npm run serve
 ```
 
 Netlify publishes the `public/` directory. No build framework or runtime service
-is required.
+is required. Pushes to `main` run the test suite and deploy through
+`.github/workflows/deploy.yml`.
