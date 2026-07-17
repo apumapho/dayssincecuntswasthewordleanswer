@@ -3,12 +3,12 @@
   "epoch": "2021-06-19",
   "source": "https://www.nytimes.com/svc/wordle/v2/{YYYY-MM-DD}.json",
   "seedSource": "https://wordfinder.yourdictionary.com/wordle/answers/",
-  "updatedAt": "2026-07-16T23:31:20.189Z",
+  "updatedAt": "2026-07-17T12:15:10.244Z",
   "latest": {
-    "puzzle": 1853,
-    "date": "2026-07-16",
-    "answer": "BUTTE",
-    "daysSinceTarget": 1853
+    "puzzle": 1854,
+    "date": "2026-07-17",
+    "answer": "LEGAL",
+    "daysSinceTarget": 1854
   },
   "answers": [
     {
@@ -11134,6 +11134,12 @@
       "date": "2026-07-16",
       "answer": "BUTTE",
       "daysSinceTarget": 1853
+    },
+    {
+      "puzzle": 1854,
+      "date": "2026-07-17",
+      "answer": "LEGAL",
+      "daysSinceTarget": 1854
     }
   ]
 }
