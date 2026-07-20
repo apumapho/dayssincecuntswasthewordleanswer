@@ -3,12 +3,12 @@
   "epoch": "2021-06-19",
   "source": "https://www.nytimes.com/svc/wordle/v2/{YYYY-MM-DD}.json",
   "seedSource": "https://wordfinder.yourdictionary.com/wordle/answers/",
-  "updatedAt": "2026-07-19T12:15:10.015Z",
+  "updatedAt": "2026-07-20T12:15:10.076Z",
   "latest": {
-    "puzzle": 1856,
-    "date": "2026-07-19",
-    "answer": "CHURN",
-    "daysSinceTarget": 1856
+    "puzzle": 1857,
+    "date": "2026-07-20",
+    "answer": "DIVER",
+    "daysSinceTarget": 1857
   },
   "answers": [
     {
@@ -11152,6 +11152,12 @@
       "date": "2026-07-19",
       "answer": "CHURN",
       "daysSinceTarget": 1856
+    },
+    {
+      "puzzle": 1857,
+      "date": "2026-07-20",
+      "answer": "DIVER",
+      "daysSinceTarget": 1857
     }
   ]
 }
