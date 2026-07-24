@@ -3,12 +3,12 @@
   "epoch": "2021-06-19",
   "source": "https://www.nytimes.com/svc/wordle/v2/{YYYY-MM-DD}.json",
   "seedSource": "https://wordfinder.yourdictionary.com/wordle/answers/",
-  "updatedAt": "2026-07-23T12:15:09.963Z",
+  "updatedAt": "2026-07-24T12:15:10.697Z",
   "latest": {
-    "puzzle": 1860,
-    "date": "2026-07-23",
-    "answer": "ORBIT",
-    "daysSinceTarget": 1860
+    "puzzle": 1861,
+    "date": "2026-07-24",
+    "answer": "PUTTY",
+    "daysSinceTarget": 1861
   },
   "answers": [
     {
@@ -11176,6 +11176,12 @@
       "date": "2026-07-23",
       "answer": "ORBIT",
       "daysSinceTarget": 1860
+    },
+    {
+      "puzzle": 1861,
+      "date": "2026-07-24",
+      "answer": "PUTTY",
+      "daysSinceTarget": 1861
     }
   ]
 }
