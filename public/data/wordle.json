@@ -3,12 +3,12 @@
   "epoch": "2021-06-19",
   "source": "https://www.nytimes.com/svc/wordle/v2/{YYYY-MM-DD}.json",
   "seedSource": "https://wordfinder.yourdictionary.com/wordle/answers/",
-  "updatedAt": "2026-07-29T12:15:08.279Z",
+  "updatedAt": "2026-07-30T12:15:02.770Z",
   "latest": {
-    "puzzle": 1866,
-    "date": "2026-07-29",
-    "answer": "VALVE",
-    "daysSinceTarget": 1866
+    "puzzle": 1867,
+    "date": "2026-07-30",
+    "answer": "FLUME",
+    "daysSinceTarget": 1867
   },
   "answers": [
     {
@@ -11212,6 +11212,12 @@
       "date": "2026-07-29",
       "answer": "VALVE",
       "daysSinceTarget": 1866
+    },
+    {
+      "puzzle": 1867,
+      "date": "2026-07-30",
+      "answer": "FLUME",
+      "daysSinceTarget": 1867
     }
   ]
 }
