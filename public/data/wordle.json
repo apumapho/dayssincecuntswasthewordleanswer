@@ -3,12 +3,12 @@
   "epoch": "2021-06-19",
   "source": "https://www.nytimes.com/svc/wordle/v2/{YYYY-MM-DD}.json",
   "seedSource": "https://wordfinder.yourdictionary.com/wordle/answers/",
-  "updatedAt": "2026-08-07T12:15:05.165Z",
+  "updatedAt": "2026-08-08T12:15:10.328Z",
   "latest": {
-    "puzzle": 1875,
-    "date": "2026-08-07",
-    "answer": "FEIGN",
-    "daysSinceTarget": 1875
+    "puzzle": 1876,
+    "date": "2026-08-08",
+    "answer": "PRIVY",
+    "daysSinceTarget": 1876
   },
   "answers": [
     {
@@ -11266,6 +11266,12 @@
       "date": "2026-08-07",
       "answer": "FEIGN",
       "daysSinceTarget": 1875
+    },
+    {
+      "puzzle": 1876,
+      "date": "2026-08-08",
+      "answer": "PRIVY",
+      "daysSinceTarget": 1876
     }
   ]
 }
