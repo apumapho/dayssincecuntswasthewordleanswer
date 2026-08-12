@@ -3,12 +3,12 @@
   "epoch": "2021-06-19",
   "source": "https://www.nytimes.com/svc/wordle/v2/{YYYY-MM-DD}.json",
   "seedSource": "https://wordfinder.yourdictionary.com/wordle/answers/",
-  "updatedAt": "2026-08-11T12:15:08.536Z",
+  "updatedAt": "2026-08-12T12:15:07.734Z",
   "latest": {
-    "puzzle": 1879,
-    "date": "2026-08-11",
-    "answer": "FENCE",
-    "daysSinceTarget": 1879
+    "puzzle": 1880,
+    "date": "2026-08-12",
+    "answer": "WIMPY",
+    "daysSinceTarget": 1880
   },
   "answers": [
     {
@@ -11290,6 +11290,12 @@
       "date": "2026-08-11",
       "answer": "FENCE",
       "daysSinceTarget": 1879
+    },
+    {
+      "puzzle": 1880,
+      "date": "2026-08-12",
+      "answer": "WIMPY",
+      "daysSinceTarget": 1880
     }
   ]
 }
