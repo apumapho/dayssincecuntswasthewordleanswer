@@ -3,12 +3,12 @@
   "epoch": "2021-06-19",
   "source": "https://www.nytimes.com/svc/wordle/v2/{YYYY-MM-DD}.json",
   "seedSource": "https://wordfinder.yourdictionary.com/wordle/answers/",
-  "updatedAt": "2026-08-28T12:15:10.392Z",
+  "updatedAt": "2026-08-29T12:15:10.196Z",
   "latest": {
-    "puzzle": 1896,
-    "date": "2026-08-28",
-    "answer": "TWEEN",
-    "daysSinceTarget": 1896
+    "puzzle": 1897,
+    "date": "2026-08-29",
+    "answer": "BLOOD",
+    "daysSinceTarget": 1897
   },
   "answers": [
     {
@@ -11392,6 +11392,12 @@
       "date": "2026-08-28",
       "answer": "TWEEN",
       "daysSinceTarget": 1896
+    },
+    {
+      "puzzle": 1897,
+      "date": "2026-08-29",
+      "answer": "BLOOD",
+      "daysSinceTarget": 1897
     }
   ]
 }
