@@ -3,12 +3,12 @@
   "epoch": "2021-06-19",
   "source": "https://www.nytimes.com/svc/wordle/v2/{YYYY-MM-DD}.json",
   "seedSource": "https://wordfinder.yourdictionary.com/wordle/answers/",
-  "updatedAt": "2026-09-06T12:15:10.018Z",
+  "updatedAt": "2026-09-07T12:15:10.223Z",
   "latest": {
-    "puzzle": 1905,
-    "date": "2026-09-06",
-    "answer": "BEIGE",
-    "daysSinceTarget": 1905
+    "puzzle": 1906,
+    "date": "2026-09-07",
+    "answer": "BLIND",
+    "daysSinceTarget": 1906
   },
   "answers": [
     {
@@ -11446,6 +11446,12 @@
       "date": "2026-09-06",
       "answer": "BEIGE",
       "daysSinceTarget": 1905
+    },
+    {
+      "puzzle": 1906,
+      "date": "2026-09-07",
+      "answer": "BLIND",
+      "daysSinceTarget": 1906
     }
   ]
 }
