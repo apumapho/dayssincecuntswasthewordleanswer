@@ -3,12 +3,12 @@
   "epoch": "2021-06-19",
   "source": "https://www.nytimes.com/svc/wordle/v2/{YYYY-MM-DD}.json",
   "seedSource": "https://wordfinder.yourdictionary.com/wordle/answers/",
-  "updatedAt": "2026-09-19T12:15:05.230Z",
+  "updatedAt": "2026-09-20T12:15:08.374Z",
   "latest": {
-    "puzzle": 1918,
-    "date": "2026-09-19",
-    "answer": "WAKEN",
-    "daysSinceTarget": 1918
+    "puzzle": 1919,
+    "date": "2026-09-20",
+    "answer": "SHONE",
+    "daysSinceTarget": 1919
   },
   "answers": [
     {
@@ -11524,6 +11524,12 @@
       "date": "2026-09-19",
       "answer": "WAKEN",
       "daysSinceTarget": 1918
+    },
+    {
+      "puzzle": 1919,
+      "date": "2026-09-20",
+      "answer": "SHONE",
+      "daysSinceTarget": 1919
     }
   ]
 }
