@@ -3,12 +3,12 @@
   "epoch": "2021-06-19",
   "source": "https://www.nytimes.com/svc/wordle/v2/{YYYY-MM-DD}.json",
   "seedSource": "https://wordfinder.yourdictionary.com/wordle/answers/",
-  "updatedAt": "2026-09-28T12:15:10.828Z",
+  "updatedAt": "2026-09-29T12:15:09.711Z",
   "latest": {
-    "puzzle": 1927,
-    "date": "2026-09-28",
-    "answer": "TRUNK",
-    "daysSinceTarget": 1927
+    "puzzle": 1928,
+    "date": "2026-09-29",
+    "answer": "SCUBA",
+    "daysSinceTarget": 1928
   },
   "answers": [
     {
@@ -11578,6 +11578,12 @@
       "date": "2026-09-28",
       "answer": "TRUNK",
       "daysSinceTarget": 1927
+    },
+    {
+      "puzzle": 1928,
+      "date": "2026-09-29",
+      "answer": "SCUBA",
+      "daysSinceTarget": 1928
     }
   ]
 }
