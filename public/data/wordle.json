@@ -3,12 +3,12 @@
   "epoch": "2021-06-19",
   "source": "https://www.nytimes.com/svc/wordle/v2/{YYYY-MM-DD}.json",
   "seedSource": "https://wordfinder.yourdictionary.com/wordle/answers/",
-  "updatedAt": "2026-10-05T12:15:09.091Z",
+  "updatedAt": "2026-10-06T12:15:07.846Z",
   "latest": {
-    "puzzle": 1934,
-    "date": "2026-10-05",
-    "answer": "MOCHA",
-    "daysSinceTarget": 1934
+    "puzzle": 1935,
+    "date": "2026-10-06",
+    "answer": "DIMLY",
+    "daysSinceTarget": 1935
   },
   "answers": [
     {
@@ -11620,6 +11620,12 @@
       "date": "2026-10-05",
       "answer": "MOCHA",
       "daysSinceTarget": 1934
+    },
+    {
+      "puzzle": 1935,
+      "date": "2026-10-06",
+      "answer": "DIMLY",
+      "daysSinceTarget": 1935
     }
   ]
 }
